@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Integento_Cms for Magento.
+ *
+ * @license MIT
+ * @author Darklg <darklg.blog@gmail.com> <@Darklg>
+ * @category Integento
+ * @package Integento_Cms
+ * @copyright Copyright (c) 2016 Integento (http://github.com/InteGento)
+ */
+-->
+<config>
+  <modules>
+    <Integento_Cms>
+      <version>0.1.0</version>
+    </Integento_Cms>
+  </modules>
+  <global>
+      <helpers>
+          <integento_cms>
+              <class>Integento_Cms_Helper</class>
+          </integento_cms>
+      </helpers>
+  </global>
+  <frontend>
+      <layout>
+          <updates>
+              <emc>
+                  <file>integento_cms.xml</file>
+              </emc>
+          </updates>
+      </layout>
+  </frontend>
+</config>

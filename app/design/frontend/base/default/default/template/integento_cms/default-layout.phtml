@@ -1,0 +1,17 @@
+<?php
+/**
+ * This file is part of Integento_Cms for Magento.
+ *
+ * @license MIT
+ * @author Darklg <darklg.blog@gmail.com> <@Darklg>
+ * @category Integento
+ * @package Integento_Cms
+ * @copyright Copyright (c) 2016 Integento (http://github.com/InteGento)
+ */
+$_h = $this->helper('integento_cms');
+$_page = $_h->getPage();
+?>
+<div class="cms-layout">
+    <h1 class="cms-layout__title"><?php echo $_page['title']; ?></h1>
+    <div class="cms-layout__content"><?php echo $_page['content']; ?></div>
+</div>
