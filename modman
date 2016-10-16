@@ -1,2 +1,4 @@
-app/code/community/Integento/*      app/code/community/Integento
-app/etc/modules/Integento_Cms.xml  app/etc/modules/Integento_Cms.xml
+app/code/community/Integento/*                                 app/code/community/Integento
+app/etc/modules/Integento_Cms.xml                              app/etc/modules/Integento_Cms.xml
+app/design/frontend/base/default/template/integento_cms/*      app/design/frontend/base/default/template/integento_cms
+app/design/frontend/base/default/layout/integento_cms.xml      app/design/frontend/base/default/layout/integento_cms.xml
